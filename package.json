@@ -1,6 +1,6 @@
 {
   "name": "binni-goel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A personal business card for Binni Goel.",
   "main": "card.js",
   "bin": {
