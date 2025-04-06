@@ -14,6 +14,7 @@ And get to know me in unique style.
 
 The final output might look something like this:
 
-<img width="971" alt="image" src="https://github.com/user-attachments/assets/a9472840-42a0-40d6-97e3-238ffc0dbd2e" />
+ <img width="1268" alt="image" src="https://github.com/user-attachments/assets/41b40688-db6c-41c1-a86f-da77bab4869b" />
+
 
 <hr/>
