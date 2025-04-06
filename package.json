@@ -1,10 +1,10 @@
 {
-  "name": "droidbg",
-  "version": "1.0.7",
-  "description": "A personal card for Binni Goel (@droidbg)",
+  "name": "binni-goel",
+  "version": "1.0.0",
+  "description": "A personal business card for Binni Goel.",
   "main": "card.js",
   "bin": {
-    "droidbg": "./card.js"
+    "binni-goel": "./card.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
     "npx card",
     "business card"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Binni G.",
+  "license": "MIT"
 }

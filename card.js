@@ -21,7 +21,7 @@ const questions = [
       {
         name: `Send me an ${chalk.green.bold("email")}?`,
         value: () => {
-          open("mailto:binni1108@gmail.com");
+          open("mailto:binnigoel01@gmail.com");
           console.log("\nDone, see you soon at inbox.\n");
         },
       },
@@ -38,19 +38,20 @@ const questions = [
 const data = {
   name: chalk.bold.magenta("                   Binni Goel"),
   handle: chalk.white("@droidbg"),
-  work: `${chalk.white("Software Dev Engineer at")} ${chalk
-    .red
-    .bold("Thoughtworks")}`,
-  medium: chalk.gray("https://medium.com/") + chalk.cyan("@droidbg"),
+  work: `${chalk.white("Software Developer at")} ${chalk.red.bold(
+    "Thoughtworks"
+  )}`,
+
   github: chalk.gray("https://github.com/") + chalk.green("droidbg"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.yellow("binni-goel"),
-  // web: chalk.cyan("https://anmolsingh.me"),
-  npx: chalk.red("npx") + " " + chalk.white("droidbg"),
+  medium: chalk.gray("https://medium.com/") + chalk.blue("@binni-goel"),
+  // web: chalk.cyan("https://websiteurl.me"),
+  npx: chalk.red("npx") + " " + chalk.white("binni-goel"),
 
   labelWork: chalk.white.bold("       Work:"),
-  labelMedium: chalk.white.bold("    Medium:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
   labelLinkedIn: chalk.white.bold("   LinkedIn:"),
+  labelMedium: chalk.white.bold("    Medium:"),
   // labelWeb: chalk.white.bold("        Web:"),
   labelCard: chalk.white.bold("       Card:"),
 };
@@ -61,9 +62,9 @@ const me = boxen(
     ``,
     `${data.labelWork}  ${data.work}`,
     ``,
-    `${data.labelMedium}  ${data.medium}`,
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
+    `${data.labelMedium}  ${data.medium}`,
     // `${data.labelWeb}  ${data.web}`,
     ``,
     `${data.labelCard}  ${data.npx}`,
